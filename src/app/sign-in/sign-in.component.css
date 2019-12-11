@@ -1,9 +1,4 @@
-/* You can add global styles to this file, and also import other style files */
-
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
-
-:host {
+.host {
     display: flex;
     justify-content: center;
     margin: 100px 0px;
@@ -31,13 +26,7 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     display: flex;
     justify-content: flex-end;
   }
-
-  .example-card {
-    max-width: 400px;
+  .cont{
+   
+    height: auto
   }
-  
-  .example-header-image {
-    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
-    background-size: cover;
-  }
-
